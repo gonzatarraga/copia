@@ -1,0 +1,72 @@
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.navegador-principal{
+  background: rgba(5, 7, 12, 0.7);
+  
+}
+
+/*Nav*/
+.inicio-a{
+  color: white;
+}
+.nav-link{
+  color: white;
+}
+
+.nav1 {
+  background: rgba(239, 237, 237, 0.85);
+}
+
+.pageNosotros {
+  background-image: url(../imganes/imageneslogin/glaciarperitomoreno.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.section-1 {
+  background: rgba(104, 191, 178, 0.455);
+}
+
+.card0 {
+  background: rgba(122, 240, 223, 0.15);
+}
+
+.img1 {
+  height: 350px;
+}
+
+/* .section-2 {
+  background-image: url(../imganes/imageneslogin/glaciarperitomoreno.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+} */
+
+.card1 {
+  background: rgba(236, 232, 232, 0.60);
+}
+
+.card2 {
+  background: rgba(236, 232, 232, 0.60);
+}
+
+.card3 {
+  background: rgba(236, 232, 232, 0.60);
+}
+
+.card4 {
+  background: rgba(236, 232, 232, 0.60);
+}
+
+.card5 {
+  background: rgba(236, 232, 232, 0.60);
+}
+
+/* img */
+.img-fluid{
+  justify-content: center;
+}

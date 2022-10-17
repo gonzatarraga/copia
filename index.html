@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="">
+    <meta name="description" content="Pagina de Turismo">
+    <meta name="name" content="Agustin Clerici's">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>Argentour</title>
+   
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navegador-principal navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="inicio-a navbar-brand" href="index.html">Argentour</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link "
+                  aria-current="page"
+                  href="pages/login.html"
+                  >Login</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/subscripcion.html"
+                  >Subscripción</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- carrouseel -->
+    <div class="container-fluid">
+      <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner h-5">
+          <div class="carousel-item active mt-5">
+            <img src="./imganes/imagenesinicio//buenos aires.jpg" class="d-block w-100" alt="buenosAires" height="500px" />
+          </div>
+          <div class="carousel-item">
+            <img src="./imganes/imagenesinicio/cordoba.jpg" class="d-block w-100" alt="cordoba" height="500px" />
+          </div>
+          <div class="carousel-item">
+            <img src="./imganes/imagenesinicio/jujuy.jpg" class="d-block w-100" alt="jujuy" height="500px" />
+          </div>
+          <div class="carousel-item">
+            <img src="./imganes/imagenesinicio/neuquen.jpg" class="d-block w-100" alt="neuquen" height="500px" />
+          </div>
+          <div class="carousel-item">
+            <img src="./imganes/imagenesinicio/tucuman.jpeg" class="d-block w-100" alt="tucuman" height="500px" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Fin carrousel -->
+    
+
+    <main>
+      <!-- entradas -->
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-8 d-flex flex-column justify-content-center" >
+              <div class="rounded columna-1 col-12 card mb-3">
+                <div class="row g-0">
+                  <div class="columna-img col-md-4">
+                    <img src="./imganes/imagenesinicio/jujuy.jpg" class="figure-1 img-fluid" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="titulo-1 card-title">Conocé Jujuy</h5>
+                      <p class="card-text">Con montañas, valles y quebradas, atractiva e histórica, se destaca por su belleza paisajística, la calidez de su gente y su rico patrimonio cultural.</p>
+                      <a href="https://prensa.jujuy.gob.ar/">Ver mas</a>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+                <div class="rounded columna-1 col-12 card mb-3">
+                  <div class="row g-0">
+                    <div class="columna-img col-md-4">
+                      <img src="./imganes/imagenesinicio/muelle-2.jpg" class="figure-2 img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="titulo-1 card-title">Conocé Neuquen</h5>
+                        <p class="card-text">Tierra generosa para os que un día llegaron a poblarla, hoy lo sigue siendo con quiene la visitan simplemente para descansar y distraerse.</p>
+                        <a href="https://www.neuqueninforma.gob.ar/">Ver mas</a>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                <div class="rounded columna-1 col-12 card mb-3">
+                  <div class="row g-0">
+                    <div class="columna-img col-md-4">
+                      <img src="./imganes/imagenesinicio/provincia-tucuman.jpg" class="figure-3 img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="titulo-1 card-title">Conocé Tucumán</h5>
+                        <p class="card-text">La provincia invita a vivir una experiencia única entre la historia que guarda la ciudad y la magia de sus diques, cerros y valles.</p>
+                        <a href="https://www.tucuman.gob.ar/noticias/">Ver mas</a>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+            </div>
+          <div class="col-4 row justify-content d-flex">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><a href="./pages/error 404/index.html">Buscar</a></button>
+            </form>
+            <a href="https://www.despegar.com.ar/"> <img src="./imganes/imagenesinicio/despegar.jpeg" alt="" class="figure-4 img-fluid"></a>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!-- fin entradas-->
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+    <!-- fin entradas-->
+    <main>
+      <section class="galeriaimagenes">
+        <div class="card border border-2" style="width: 18rem;">
+          <img src="./pages/galeria-imagenes/imagenes/collage.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="descripción text-center">Galeria de imagenes, descripción y enlaces oficiales de: Buenos Aires, Neuquén, Jujuy, Tucumán y Cordoba.
+             </h5>
+            <p class="slogan1">No dejes para mañana el viaje que puedas hacer hoy</p>
+            <a href="./pages/galeria-imagenes/index.html" class="btn btn-primary">Visitar</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Comentarios</h2>
+    
+        <div class="card mb-3 " style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../argentourproyecto/imganes/imagenescomentarios/sesion-estudio-barcelona-10-original.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Carlos Trejo</h5>
+                  <p class="card-text">Muy recomendable pagina para encontrar distintos lugares para viajar y conocer, recomiendo a mis amigas :D</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../argentourproyecto/imganes/imagenescomentarios/Perfil-hombre-básico_738242395.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Carlos Chavez</h5>
+                  <p class="card-text">Gracias a ustedes pude conseguir mi mejor lugar para vacacionar dentro de Argentina</p>
+                  <p class="card-text"><small class="text-muted">Last updated 15 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+    
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../argentourproyecto/imganes/imagenescomentarios/portada-foto-perfil-redes-sociales-consejos.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Ruperta Garcia</h5>
+                  <p class="card-text">Espectacular trabajo chicos. Encontre mi viaje ideal</p>
+                  <p class="card-text"><small class="text-muted">Last updated 25 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+    
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../argentourproyecto/imganes/imagenescomentarios/foto-de-perfil.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Cinthia Rodriguez</h5>
+                  <p class="card-text">Ya se donde vacacionar a Fin de Año!!!</p>
+                  <p class="card-text"><small class="text-muted">Last updated 40 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+    
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../argentourproyecto/imganes/imagenescomentarios/Perfil-hombre-básico_738242395.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Franco Nicolas</h5>
+                  <p class="card-text">Ahora le comento a mi marido y le muestro esta pagina para que elijamos nuestro proximo Destino. Gracias Argentour</p>
+                  <p class="card-text"><small class="text-muted">Last updated 50 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <textarea name="comenta Aqui" id="" cols="30" rows="5">Agrega tu comentario</textarea>
+        </section>
+    </main>
+    <footer class="row col-12">
+       <section class="container row col-12 border border-white">
+        <div class="redes row g-0 col-12 col-lg-5 border border-5 border border-white">
+            <p><h2 class="redesh2 border border-white" >Visita nuestras redes</h2></p>
+            <a class="face col-3 col-lg-3" href="./pages/error 404/index.html"><img class="icono1" src="./imganes/imagenesfooter/face.png" alt="face"></a>
+            <a class="insta col-3 col-lg-3" href="https://www.instagram.com/turismonacionar/?hl=es"><img class="icono2" src="./imganes/imagenesfooter/insta.png" alt="insta"></a>
+            <a class="tw col-3 col-lg-3" href="https://twitter.com/TurismoNacionAR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="icono3" src="./imganes/imagenesfooter/tw.png" alt="tw"></a>
+        </div>
+        <div class="info row col-12 col-lg-4">
+            <p><h3 class="islas ">Trata de personas es esclavitud. <br> Si sabés de algo, denuncialo al 145 ☎</h3></p>
+            <img class="malvinas" src="./imganes/imagenesfooter/Las-Malvinas-son-Argentinas_PNG_.png" alt="">
+        </div>
+        <div class="logo row col-12 col-lg-3">
+            <img clas="logo1" src="./imganes/imagenesfooter/logo pagina.png" alt="#">
+        </div>
+       </section>
+          <p class="pfooter">República Argentina</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

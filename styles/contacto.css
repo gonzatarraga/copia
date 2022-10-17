@@ -1,0 +1,78 @@
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.navegador-principal{
+  background: rgba(5, 7, 12, 0.7);
+  
+}
+
+/*Nav*/
+.inicio-a{
+  color: white;
+}
+.nav-link{
+  color: white;
+}
+.nav1 {
+  background: rgba(239, 237, 237, 0.85);
+}
+
+.bg-1 {
+  background: rgba(5, 7, 12, 0.5);
+}
+
+.body-1 {
+  background-image: url(../imganes/imageneslogin/glaciarperitomoreno.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nombre-p {
+  display: flex;
+  justify-content: center;
+}
+
+.col-n {
+  color: white;
+  text-align: center;
+}
+
+.nombres {
+  flex-direction: column;
+  display: flex;
+}
+
+.inc {
+  flex-direction: row;
+}
+
+.p-1 {
+  color: white;
+}
+
+.im-1 {
+  background: rgba(208, 208, 208, 0.834);
+  width: 40vh;
+}
+
+.im-2 {
+  background: rgba(208, 208, 208, 0.834);
+  width: 40vh;
+}
+
+.im-3 {
+  background: rgba(208, 208, 208, 0.834);
+  resize: none;
+  width: 40vh;
+  height: 129px;
+}
+
+.hh2 {
+  color: white;
+}
+
+.dir {
+  text-decoration: none;
+  color: black;
+}

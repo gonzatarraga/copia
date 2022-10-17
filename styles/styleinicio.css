@@ -1,0 +1,53 @@
+.columna-1 {
+  height: 12em;
+  
+}
+.titulo-1 {
+  margin-top: 10px;
+  color: rgb(11, 146, 139);
+}
+.main {
+  margin-left: 2em;
+}
+/* .figure-1 {
+  margin-top: 1.5em;
+  border-radius: 2em 2em 2em 2em;
+  height: 9em;
+  width: 310px;
+  margin-left: 10px;
+} 
+.figure-2 {
+  margin-top: 1.5em;
+  border-radius: 2em 2em 2em 2em;
+  height: 9em;
+  width: 310px;
+  margin-left: 10px;
+}
+.figure-3 {
+  margin-top: 1.5em;
+  border-radius: 2em 2em 2em 2em;
+  height: 9em;
+  width: 310px;
+  margin-left: 10px;
+}
+.figure-4 {
+  margin-top: 3px;
+  border-radius: 1em 1em 1em 1em;
+  width: 30em;
+  height: 32em;
+  display: flex;
+}*/
+.form1 {
+  margin-top: 2.5em;
+  height: 2.5em;
+
+}
+.card1 {
+  margin-top: 1.5em;
+}
+.section1 {
+background-color: rgba(168, 254, 224, 0.932);
+}
+.card2 {
+  background: rgb(255, 255, 255, 0.60);
+}
